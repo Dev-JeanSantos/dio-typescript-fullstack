@@ -1,0 +1,10 @@
+##Considerações
+* Linguagem fracamente tipada
+
+
+##Comandos
+* npm init --y  (iniciar o node no projeto e cria um package.json)
+* npm i -D typescript  (instalação a dependencia do typescript no projeto)
+* npm i -D ts-node-dev  (instalação a dependencia do ts-node-dev no projeto)
+* npx tsc --init (iniciar o typescript no projeto)
+* npx tsc app.ts (converter typesctrip em js)
