@@ -99,3 +99,25 @@ console.log(array.length)
 stringArray.pop()
 stringArray.pop()
 console.log(stringArray.length)
+
+
+//VARRER ARRAY
+const buscaNumero = array.find(num => num > 1)
+console.log(buscaNumero)
+
+const buscaNumero2 = array.find(num => num > 100)
+console.log(buscaNumero2)
+
+console.log(array)
+array.forEach(num => console.log(num))
+console.log(stringArray)
+stringArray.forEach(num => console.log(num))
+
+array.forEach(num =>{
+    if(num > 2 && num % 2 === 0){
+     console.log(num * 2)
+    }
+})
+
+array.map(num => console.log(num))
+    
