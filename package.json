@@ -1,0 +1,17 @@
+{
+  "name": "dio-typescript-fullstack",
+  "version": "1.0.0",
+  "description": "TypeScript, um superset de Javascript mantida pela Microsoft. TypeScript é essencialmente JavaScript com alguns recursos adicionais que traz mais segurança ao desenvolvedor. Leve seu desenvolvimento com Typescript no Front-End com React e para o Back-End com node. Aprenda mais sobre as vantagens da tipagem no seu código, entenda os conceitos de Orientação a Objetos passando por Herança, Encapsulamento, Polimorfismo e Abstração e construa seu projeto baseado em Classes. Evolua seu Back-End com boas práticas de código, entenda como criar servidor com Express e como desenvolver uma API REST.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev fundamentos/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3"
+  }
+}
